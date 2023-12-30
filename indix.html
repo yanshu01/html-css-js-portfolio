@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfoliyo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body> 
+    <nav id="desktop-nav">
+        <div class="logo">Yateen sharma</div>
+        <div>
+            <ul class="nav-links"> <!--here is the liks -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+
+            </ul>
+        </div>
+
+
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span> 
+            </div>
+            <div class="menu-links">
+                <li><a href="about"onclick="toggleMenu()">About</a></li>
+                <li><a href="experience"onclick="toggleMenu()">experience</a></li>
+                <li><a href="projects"onclick="toggleMenu()">projects</a></li>
+                <li><a href="contact"onclick="toggleMenu()">contact</a></li>
+
+            </div>
+        </div>
+
+    </nav>
+    <section id = "profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile picture yateen.png" alt="yateen sharma profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hellow , I'm</p>
+            <h1 class="title">Yateen sharma</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"onclick="window.open('./assets/Resume.pdf')">Downlod cv</button>
+                <button class="btn btn-color-1"onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/sharmatheyateen/'" >
+                <img src="./assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://https://github.com/yanshu01/'" >
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./assets/photo1703829655.jpeg"alt="profile Picture" class="about-pic"/>
+            
+            
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="experience icon" class="icon"/>
+                    <h3>experience</h3>
+                    <p>Fresher <br>Frontend Developer</p> <!--1:04-->
+            
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="experience icon" class="icon"/>
+                    <h3>education</h3>
+                    <p>B.TECh in Computer science Engineering <br>software Developer</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>My name is yateen sharma I studed in B.tech computer science
+                    Here is some of my Certificates
+                    .ChatGPT introduction to chatGpt
+                    Issued on 4 june 2023
+                    . Basic of Java programming’ Boot
+                    camp (Open Weaver) ID no .
+                    72222554176143 Issued jan 2023
+                    .Great learning javascript
+                    Greatlearning Issued mar 2023 ID
+                    no 4987641648936
+                    .Java full stack course by apna
+                    college. Learn array,linkedlists
+                    OOps in Java by Great learning
+                    Issued on 3 June 2023 Id no
+                    65464861.
+                 </p>
+            </div>
+        </div>
+        </div>
+        <img src="assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#experience'"/> <!-- her is link is not working -->
+
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container"></div>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experience</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experience</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>JAVA</h3>
+                            <p>Experience</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>React-native</h3>
+                            <p>good</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>Swift</h3>
+                            <p>Intermideate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>javascript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container"></div>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>git</h3>
+                            <p>Experience</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="experience icon" class="icon"/>
+                        <div>
+                            <h3>JAVA</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                   
+                </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recents</p>
+        <h1 class="title">projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/survay.png" alt="project 1" class="project-img">
+
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://github.com/yanshu01/survay'"> Github</button>
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://github.com/yanshu01/survay.git'"> Live Demo</button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/calculater.png" alt="project 2" class="project-img">
+
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://github.com/yanshu01/project'"> Github</button>
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://github.com/yanshu01/project.git'"> Live Demo</button>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#projects'"/>
+
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contect Me</h1>
+        <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+            <p><a href="mailto:yatinsharma1007@gmail.com">yatinsharma1007@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+            <p><a href="https://www.linkedin.com/in/sharmatheyateen">Linkedin</a></p>
+        </div>
+    </div>
+    </section>
+    <footer><nav>
+        <div class="nav-links-container">
+            <ul class="nav-links"> <!--here is the liks -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Yateen sharma. All Right Reserved. </p>
+</footer>
+    <script src="script.js"></script> 
+    
+</body>
+</html> 
